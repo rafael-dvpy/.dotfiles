@@ -44,7 +44,7 @@ require("catppuccin").setup({
 -- setup must be called before loading
 
 function ColorMyPencils(color)
-	color = color or "catppuccin"
+	color = color or "catppuccin-mocha"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })

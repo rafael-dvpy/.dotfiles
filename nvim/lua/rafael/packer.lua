@@ -71,4 +71,9 @@ return require("packer").startup(function(use)
 			require("startup").setup({ theme = "my_theme" })
 		end,
 	})
+
+	use({
+		"nvim-lualine/lualine.nvim",
+		requires = { "nvim-tree/nvim-web-devicons", opt = true },
+	})
 end)
